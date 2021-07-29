@@ -11,7 +11,7 @@ $session_no = 5;
 $pt_one = 5; $pt_two= 10;  $pt_three=3;$pt_four = 0; $pt_five= 0; 
 $m_one = 5; $m_two= 10;  $m_three=20;$m_four = 20; $m_five= 10; 
 
-$sql = "SELECT id, eg, payscale, grade, tarikh_kemasukan  FROM data limit 10";
+$sql = "SELECT id, eg, payscale, grade, tarikh_kemasukan  FROM data limit 20";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
